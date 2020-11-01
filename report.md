@@ -4,15 +4,11 @@
 
 30.10.2020 было проведено функциональное тестирование программы Credit Card Number Validator.
 
-На тестирование затрачено: 20 минут
+На тестирование затрачено: 25 минут
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/DinaOrlova/lec-1.1-zadacha-2/issues/1
-* https://github.com/DinaOrlova/lec-1.1-zadacha-2/issues/2
-* https://github.com/DinaOrlova/lec-1.1-zadacha-2/issues/3
-* https://github.com/DinaOrlova/lec-1.1-zadacha-2/issues/4
-* https://github.com/DinaOrlova/lec-1.1-zadacha-2/issues/5
-* https://github.com/DinaOrlova/lec-1.1-zadacha-2/issues/6
+* https://github.com/DinaOrlova/lec-1.1-zadacha-2/issues/7
+* https://github.com/DinaOrlova/lec-1.1-zadacha-2/issues/8
 
 ## Описание процесса тестирования
 
@@ -56,6 +52,24 @@
 
 **11. InstaPayment:**
 * 6383740169632226
+
+А так же для проверки невалидных номеров использовались невалидные номера карт и произвольные наборы цифр:
+
+* 4539232697741014
+* 6011057126144965
+* 4508645850462461
+* 2221003283958892
+* 3538168254149739
+* 1111111111111111
+* 2222222222222222
+* 3333333333333333
+* 4444444444444444
+* 5555555555555555
+* 6666666666666666
+* 7777777777777777
+* 8888888888888888
+* 9999999999999999
+* 0000000000000000
 
 Тестирование производилось в следующем окружении:
 - Windows 10 Pro х64
